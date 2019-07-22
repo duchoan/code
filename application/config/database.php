@@ -64,11 +64,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '42.112.30.120',
-	'username' => 'itshop_online',
-	'password' => 'Hx8fiZm2Qh8dvi',
-	'database' => 'itshop_online',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'ec2-54-204-35-248.compute-1.amazonaws.com',
+	'username' => 'aqptusrpklixsx',
+	'password' => '8b32710ac3abd436ba2d5fbb5704c89a2fe9c96a611890f302fa1d45ffaba933',
+	'database' => 'dfov7rsucv9uv2',
+	'dbdriver' => 'pgsql',
 	'dbprefix' => 'bigweb_',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,
