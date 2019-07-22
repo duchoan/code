@@ -23,7 +23,7 @@ class content extends MX_Controller
         $arr_obj = '';
         if (!empty($arr_cate)) {
             foreach ($arr_cate as $cat) {
-                $arr_obj[$cat->parentid][] = $cat;
+                //$arr_obj[$cat->parentid][] = $cat;
             }
         }
         $data['cate_home'] = $this->Common_model->get_data('categories', array('taxonomy' => 'cate_product', 'show' => 1, 'show_home' => 1), array('order_home', 'asc'));
