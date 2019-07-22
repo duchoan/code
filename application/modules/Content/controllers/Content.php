@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Content extends MX_Controller
+class content extends MX_Controller
 {
     public $setting = '';
 
