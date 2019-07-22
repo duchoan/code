@@ -1,41 +1,32 @@
 <?php if (!empty($slide)) { ?>
-    <div class="slide">
-        <div id="owl-one-slide" class="owl-carousel owl-theme">
-            <?php foreach ($slide as $sl) { ?>
-                <div class="item">
-                    <a href="<?php echo $sl->hyperlink; ?>">
-                        <img src="<?php echo $sl->image; ?>" alt="<?php echo $sl->title; ?>">
-                    </a>
-                </div>
-            <?php } ?>
-        </div>
-        <script>
-            $(document).ready(function () {
-                $("#owl-one-slide").owlCarousel({
-                    dots: true,
-                    nav: true,
-                    navText: ['', ''],
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                    loop: true,
-                    items: true
-                });
-            });
-        </script>
-        <?php if (!empty($categories_sl)) { ?>
-            <div class="dk-email">
-                <div class="container">
-                    <div class="menu-slide">
-                        <ul>
-                            <?php foreach ($categories_sl as $cat) { ?>
-                                <li>
-                                    <a href="<?php echo base_url($cat->alias );?>"><?php echo $cat->title ;?></a>
-                                </li>
-                            <?php } ?>
-                        </ul>
-                    </div>
-                </div>
+    <div class="header-static-slideshow">
+        <div class="container">
+            <div class="row">
+                <ul class="xoxo">
+                    <li id="text-25" class="widget-container widget_text">
+                        <div class="textwidget">
+                            <div class="threefour">
+                                <div style="max-width: 100%;" class="ml-slider-3-7-2 metaslider metaslider-nivo metaslider-7368 ml-slider">
+                                    <div id="metaslider_container_7368">
+                                        <div class='slider-wrapper theme-default'>
+                                            <div class='ribbon'></div>
+                                            <div id='metaslider_7368' class='nivoSlider'>
+                                                <?php foreach ($slide as $sl) { ?>
+                                                    <div class="item">
+                                                        <a href="<?php echo $sl->hyperlink; ?>">
+                                                            <img src="<?php echo $sl->image; ?>" height="300" width="100%" class="slider-7368 slide-<?php echo $sl->id; ?>" alt="<?php echo $sl->title; ?>">
+                                                        </a>
+                                                    </div>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        <?php } ?>
+        </div>
     </div>
 <?php } ?>

@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'dodoi_net',
-	'password' => 'woDD9Ctvd',
-	'database' => 'dodoi_net',
+	'hostname' => '42.112.30.120',
+	'username' => 'itshop_online',
+	'password' => 'Hx8fiZm2Qh8dvi',
+	'database' => 'itshop_online',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'bigweb_',
 	'pconnect' => FALSE,
