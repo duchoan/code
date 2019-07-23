@@ -106,17 +106,14 @@
                                                                     <li id="arow-up"></li>
                                                                     <li id="icon_type"><img src="<?php echo base_url();?>skin/frontend/themes/wp_glory/images/ic.png" alt="hỗ trợ" title="hỗ trợ">&nbsp;Hotline</li>
                                                                     <li id="list"><strong>Kinh doanh</strong>:&nbsp;0986 630 323 </li>
-
                                                                     <li class="clear"></li>
                                                                 </ul>
                                                             </li>
                                                         </ul>
-
                                                     </div>
                                                     <div class="shopping-cart shopping-cart-wrapper hidden-xs ">
                                                         <div class="wd_tini_cart_wrapper  cart-list-in-sidebar">
                                                             <div class="wd_tini_cart_control  wd-open-control-panel heading" data-position="right" data-element=".wd-cart-list-box">
-
                                                                 <div class="cart_size">
                                                                     <a href="/cart/" title="Xem giỏ hàng của bạn">
                                                                         <span><i class="fa fa-shopping-cart"></i></span>
@@ -130,7 +127,6 @@
                                                     </div>
                                                     <div class="wd_woo_search_box">
                                                         <form role="search" method="get" autocomplete="off" id="wd_searchform" action="/">
-
                                                             <div class="wd_search_form">
                                                                 <label class="screen-reader-text" for="s">Search for:</label>
                                                                 <input type="text" name="s" id="s" data-type="product" data-timeout="500" data-prod_limit="2" data-blog_limit="3" data-site_url="/" data-ajax_url="/wp-admin/admin-ajax.php" placeholder="Nhập từ khóa ..." />
@@ -144,165 +140,13 @@
                                                         <nav class="list_result light woocommerce"></nav>
                                                     </div>
                                                 </div>
-
                                                 <div class="frm_thongtin not-mobile">
-
                                                     <div class="thanhtoan">Thanh toán khi nhận hàng</div>
-
                                                     <div class="giaohang">Giao hàng miễn phí</div>
                                                     <div class="chinhhang">Bảo hành dài hạn</div>
                                                 </div>
-
                                             </div>
-
-                                            <div class="header-bottom hidden-xs" style="float:none;" id="header-bottom">
-                                                <div class="header-bottom-content">
-                                                    <div class="container">
-                                                        <div class="row">
-
-                                                            <div class="nav wd_mega_menu_wrapper">
-                                                                <div class="main-menu pc-menu wd-mega-menu-wrapper">
-                                                                    <ul id="menu-menu-san-pham-1" class="menu">
-                                                                        <li class="menu-item-0 menu-item-level-0 menu-dropdown" id="wd-menu-item-dropdown" style="display:none;"><span class="menu-text">Menu</span><span class="menu-icon"></span></li>
-                                                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7935 menu-item-level0 first have-child wd-fly-menu">
-                                                                            <a href="/danh-muc-san-pham/phong-khach/">
-                                                                                <span class='menu-label-level-0'>Phòng Khách</span>
-                                                                            </a> <span class="menu-drop-icon drop-icon-lv0"></span>
-                                                                            <ul class="sub-menu">
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7855 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/noi-that-phong-khach/">
-                                                                                        <span class='menu-label-level-1'>Nội thất phòng khách</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8357 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/sofa-phong-khach/">
-                                                                                        <span class='menu-label-level-1'>Sofa phòng khách</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-9043 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/sofa-cafe/">
-                                                                                        <span class='menu-label-level-1'>Sofa cafe</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7856 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/ban-ghe-go/">
-                                                                                        <span class='menu-label-level-1'>Bàn ghế gỗ</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7857 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/ke-tivi/">
-                                                                                        <span class='menu-label-level-1'>Kệ tivi</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8348 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/ban-tra/">
-                                                                                        <span class='menu-label-level-1'>Bàn trà</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7858 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-khach/tu-de-giay/">
-                                                                                        <span class='menu-label-level-1'>Tủ để giày</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                            </ul>
-
-                                                                        </li>
-                                                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7859 menu-item-level0 have-child wd-fly-menu">
-                                                                            <a href="/danh-muc-san-pham/phong-bep/">
-                                                                                <span class='menu-label-level-0'>Phòng bếp</span>
-                                                                            </a> <span class="menu-drop-icon drop-icon-lv0"></span>
-                                                                            <ul class="sub-menu">
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7860 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-bep/ban-ghe-an/">
-                                                                                        <span class='menu-label-level-1'>Bàn ghế ăn</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7861 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-bep/quay-bar/">
-                                                                                        <span class='menu-label-level-1'>Quầy bar</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7862 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-bep/tu-bep/">
-                                                                                        <span class='menu-label-level-1'>Tủ bếp</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7863 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-bep/vach-ngan/">
-                                                                                        <span class='menu-label-level-1'>Vách ngăn</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                            </ul>
-
-                                                                        </li>
-                                                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7864 menu-item-level0 have-child wd-fly-menu">
-                                                                            <a href="/danh-muc-san-pham/phong-ngu/">
-                                                                                <span class='menu-label-level-0'>Phòng Ngủ</span>
-                                                                            </a> <span class="menu-drop-icon drop-icon-lv0"></span>
-                                                                            <ul class="sub-menu">
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7865 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-ngu/ban-lam-viec/">
-                                                                                        <span class='menu-label-level-1'>Bàn làm việc</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7866 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-ngu/ban-trang-diem/">
-                                                                                        <span class='menu-label-level-1'>Bàn trang điểm</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7867 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-ngu/gia-sach/">
-                                                                                        <span class='menu-label-level-1'>Giá sách</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7868 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-ngu/giuong-ngu/">
-                                                                                        <span class='menu-label-level-1'>Giường ngủ</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7869 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-ngu/tu-ao/">
-                                                                                        <span class='menu-label-level-1'>Tủ áo</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                            </ul>
-
-                                                                        </li>
-                                                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7870 menu-item-level0 have-child wd-fly-menu">
-                                                                            <a href="/danh-muc-san-pham/phong-tre-em/">
-                                                                                <span class='menu-label-level-0'>Phòng trẻ em</span>
-                                                                            </a> <span class="menu-drop-icon drop-icon-lv0"></span>
-                                                                            <ul class="sub-menu">
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7871 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-tre-em/ban-hoc-tre-em/">
-                                                                                        <span class='menu-label-level-1'>Bàn học trẻ em</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7872 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-tre-em/giuong-ngu-phong-tre-em/">
-                                                                                        <span class='menu-label-level-1'>Giường ngủ trẻ em</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7873 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-tre-em/noi-that-tre-em/">
-                                                                                        <span class='menu-label-level-1'>Nội thất trẻ em</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7874 menu-item-level1 wd-fly-menu">
-                                                                                    <a href="/danh-muc-san-pham/phong-tre-em/tu-ao-phong-tre-em/">
-                                                                                        <span class='menu-label-level-1'>Tủ áo trẻ em</span>
-                                                                                    </a>
-                                                                                </li>
-                                                                            </ul>
-
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php echo Modules::run('Header/Module_header/main_menu'); ?>
                                             <!-- end .header-bottom -->
                                         </div>
                                         <div class="clear"></div>
@@ -314,8 +158,7 @@
 
                     </div>
                     <!-- #wd-sticky -->
-
-                    SLIDE
+                <?php echo Modules::run('Slide/Module_slide/index'); ?>
                 </div>
             </header>
             <!-- #masthead -->

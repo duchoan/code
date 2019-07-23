@@ -28,7 +28,7 @@ class Module_header extends MX_Controller
 
     public function main_menu()
     {
-        $data['categories'] = $this->Common_model->get_data('categories', array('main_menu' => 1,'show' => 1, 'parentid' => 0), array('order_main', 'asc'));
+        $data['categories'] = $this->Common_model->get_data('categories', array('main_menu' => 1,'taxonomy'=>'cate_product','show' => 1, 'parentid' => 0), array('order_main', 'asc'));
         $data['cate_child'] = '';
         if (!empty($data['categories'])) {
             foreach ($data['categories'] as $cate) {

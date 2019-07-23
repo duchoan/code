@@ -26,9 +26,6 @@ class Content extends MX_Controller
                 $arr_obj[$cat->parentid][] = $cat;
             }
         }
-        echo '<pre>';
-        print_r($arr_obj);
-        echo '</pre>';
         $data['cate_home'] = $this->Common_model->get_data('categories', array('taxonomy' => 'cate_product', 'show' => 1, 'show_home' => 1), array('order_home', 'asc'));
         $data['pro_home']='';
         if(!empty($data['cate_home'])){
